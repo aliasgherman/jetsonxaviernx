@@ -26,6 +26,13 @@ Section "Screen"
    EndSubSection
 EndSection
 
+# Install jetson-inference from Source
+Containers are fine, but almost nothing works on this platform. I mean if you go for Tensorflow, then you are unable to get a container with latest libraries. Same for pytorch. And you get one container and then want to install other libraries or updates but the eco-system is simply behind.
+
+So, on my second run, I would prefer jetson-inference installation from source. And then build my developer resources from there.
+
+https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
+
 
 # Anaconda ??? 
 Working on the aarch64 download from archives of anaconda.
