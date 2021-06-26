@@ -34,6 +34,10 @@ So, on my second run, I would prefer jetson-inference installation from source. 
 https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
 
 
+# Great blog
+https://medium.com/swlh/the-newbie-guide-to-setting-up-a-jetson-nano-on-jp4-4-230449346258
+
+
 # Anaconda ??? 
 Working on the aarch64 download from archives of anaconda.
 
