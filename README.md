@@ -37,6 +37,19 @@ https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
 # Great blog
 https://medium.com/swlh/the-newbie-guide-to-setting-up-a-jetson-nano-on-jp4-4-230449346258
 
+# Install pycuda
+sudo nano ~/.bashrc
+export PATH=${PATH}:/usr/local/cuda/bin
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda/lib64
+
+Save and exit.
+
+Check if nvcc --version is working on command line now. If yes, then proceed to next command
+pip3 install pycuda
+
+# Deepstream Python Apps
+May need to change chmod -R 777 for /opt/nvidia else all modifications will require sudo
+https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Python_Sample_Apps.html
 
 # Anaconda ??? 
 Working on the aarch64 download from archives of anaconda.
